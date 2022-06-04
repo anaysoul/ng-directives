@@ -22,7 +22,17 @@
   </ul>
 </nav>
 
-<div>
+<!-- <div>
   <h4>{{ images[currentPage].title }}</h4>
   <img [src]="images[currentPage].url" alt="images[currentPage].title" />
+</div> -->
+
+<div [ngSwitch]="currentPage">
+  <div *ngSwitchCase="0">current page is zero.</div>
+  <div *ngSwitchCase="1">current page is one.</div>
+  <div *ngSwitchCase="2">current page is two.</div>
+  <div *ngSwitchCase="3">current page is three.</div>
+  <div *ngSwitchCase="4">current page is four.</div>
+  <div *ngSwitchCase="5">current page is five.</div>
+  <div *ngSwitchDefault>Unkown current page.</div>
 </div>
