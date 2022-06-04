@@ -10,31 +10,31 @@ export class AppComponent {
   images = [
     {
       title: 'At the Beach',
-      url: 'https://unsplash.com/photos/Ox_6M68VqfQ',
+      url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e',
     },
     {
       title: 'At the Forest',
-      url: 'https://unsplash.com/photos/-heLWtuAN3c',
+      url: 'https://images.unsplash.com/photo-1511497584788-876760111969',
     },
     {
       title: 'At the Mountain',
-      url: 'https://unsplash.com/photos/9wg5jCEPBsw',
+      url: 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606',
     },
     {
       title: 'At the Volcano',
-      url: 'https://unsplash.com/photos/tLxGw_ITs7k',
+      url: 'https://images.unsplash.com/photo-1580250642511-1660fe42ad58',
     },
     {
       title: 'At the River',
-      url: 'https://unsplash.com/photos/M1YdS0g8SRA',
+      url: 'https://images.unsplash.com/photo-1536048810607-3dc7f86981cb',
     },
     {
       title: 'At the Grassland',
-      url: 'https://unsplash.com/photos/bNOh-Y-ECSg',
+      url: 'https://images.unsplash.com/photo-1562758619-78207a23a6e0',
     },
     {
       title: 'At the Jungle',
-      url: 'https://unsplash.com/photos/qLW70Aoo8BE',
+      url: 'https://images.unsplash.com/photo-1470058869958-2a77ade41c02',
     },
   ];
 }
